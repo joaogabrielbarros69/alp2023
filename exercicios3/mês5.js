@@ -1,0 +1,40 @@
+let me = Number(prompt("digite um número referente a um mês"));
+if(me==1){
+    document.write("janeiro");
+}
+if(me==2){
+    document.write("fevereiro");
+}
+if(me==3){
+    document.write("março");
+}
+if(me==4){
+    document.write("abril");
+}
+if(me==5){
+    document.write("maio");
+}
+if(me==6){
+    document.write("junho");
+}
+if(me==7){
+    document.write("julho");
+}
+if(me==8){
+    document.write("agosto");
+}
+if(me==9){
+    document.write("setembro");
+}
+if(me==10){
+    document.write("outubro");
+}
+if(me==11){
+    document.write("novembro");
+}
+if(me==12){
+    document.write("dezembro");
+}
+if(me>12){
+    document.write("você é burro cara, um ano tem 12 meses, animal");
+}
